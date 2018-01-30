@@ -1,0 +1,149 @@
+/* Universal Styles */
+body {
+  font-family: helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+  text-align: center;
+  margin: 0px;
+}
+
+a {
+  text-direction: underline;
+  color: seashell;
+}
+
+/* Header */
+header {
+  display: flex;
+  position: fixed;
+  border-bottom: 1px solid seashell;
+  width: 100%;
+  height: 69px;
+  align-items: center;
+  z-index: 1;
+  background-color: black;
+  justify-content: space-between;
+}
+
+.logo img {
+  height: 50px;
+  margin-left: 10px;
+}
+
+nav span {
+  display: inline-block;
+  padding: 20px 10px;
+}
+
+/* Mission */
+.mission {
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg);
+  background-position: center;
+  height: 700px;
+  width: 1200px;
+  padding-top: 43px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+}
+
+.mission-text {
+  background-color: black;
+  margin-top: 275px;
+}
+
+
+.mission h2 {
+  padding-top: 10px;
+}
+
+.mission h4 {
+  padding-bottom: 10px;
+}
+
+/* Teas Of the Month */
+.teas-of-the-month {
+  width: 1000px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 43px;
+  position: relative;
+}
+
+.teas-top-row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 0px;
+}
+
+.teas-top-row h4 {
+  margin-top: 0px;
+  padding-top: 10px
+}
+
+.teas-bottom-row {
+  display: flex;
+  justify-content: space-around;
+}
+
+.teas-bottom-row h4 {
+  margin-top: 0px;
+  padding-top: 10px
+}
+
+.myrtle {
+  margin-left: 145px;
+}
+
+.bedford {
+  margin-right: 145px;
+}
+
+/* Locations */
+.locations {
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg);
+  background-position: center;
+  height: 500px;
+  width: 1200px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+}
+
+.locations h2 {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-bottom: 0px;
+}
+.addresses {
+  display: flex;
+  justify-content: space-around;
+  margin-left: 110px;
+  margin-right: 110px;
+}
+
+.details {
+  background-color: black;
+  width: 300px;
+  height: 350px;
+  opacity: 1;
+}
+
+.details h3 {
+  padding: 20px;
+}
+
+/* Footer */
+.footer {
+  height: 200px;
+}
+
+.copyright {
+  text-align: left;
+  padding-left: 20px;
+}
